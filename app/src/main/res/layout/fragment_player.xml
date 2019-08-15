@@ -213,16 +213,17 @@
 
             <SeekBar
                 android:id="@+id/seekBar"
-                style="@style/Widget.AppCompat.SeekBar.Discrete"
+                style="@style/Widget.AppCompat.SeekBar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
                 android:max="100"
                 android:progress="3"
+                android:progressTint="#00360A0A"
                 app:layout_constraintBottom_toBottomOf="@+id/button_play"
                 app:layout_constraintTop_toBottomOf="@+id/imageView2"
-                app:layout_constraintVertical_bias="0.7"
+                app:layout_constraintVertical_bias="0.71000004"
                 tools:layout_editor_absoluteX="194dp" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
