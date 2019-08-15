@@ -131,10 +131,12 @@
                 app:layout_constraintBottom_toTopOf="@+id/imageView2"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                android:textSize="@dimen/textview_top_type_album_or_playlist"/>
 
             <TextView
                 android:id="@+id/text_top_name_album_or_playlist"
+                android:textSize="@dimen/textview_top_name_album_or_playlist"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -148,6 +150,7 @@
 
             <TextView
                 android:id="@+id/text_title_music"
+                android:textSize="@dimen/textview_title_music"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
@@ -158,6 +161,7 @@
 
             <TextView
                 android:id="@+id/text_artist_name"
+                android:textSize="@dimen/textview_name_artiste_and_album"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_marginStart="32dp"
@@ -177,6 +181,7 @@
 
             <TextView
                 android:id="@+id/text_album_name"
+                android:textSize="@dimen/textview_name_artiste_and_album"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
