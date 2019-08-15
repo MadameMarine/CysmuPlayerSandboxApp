@@ -127,7 +127,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="album/playlist"
+                android:text="@string/location_album_or_playlist"
                 app:layout_constraintBottom_toTopOf="@+id/imageView2"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -140,7 +140,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="name album / playlist"
+                android:text="@string/title_album_or_music"
                 app:layout_constraintBottom_toTopOf="@+id/imageView2"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -152,7 +152,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="16dp"
-                android:text="Title"
+                android:text="@string/title_music"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
@@ -162,16 +162,16 @@
                 android:layout_height="0dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="8dp"
-                android:text="Artiste"
+                android:text="@string/name_artiste"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/text_title_music" />
 
             <TextView
                 android:id="@+id/text_separator"
                 android:layout_width="wrap_content"
-                android:layout_height="12dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
-                android:text="•"
+                android:text="@string/separator"
                 app:layout_constraintBottom_toBottomOf="@+id/text_artist_name"
                 app:layout_constraintStart_toEndOf="@+id/text_artist_name" />
 
@@ -180,7 +180,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:text="name album"
+                android:text="@string/title_album"
                 app:layout_constraintBottom_toBottomOf="@+id/text_artist_name"
                 app:layout_constraintStart_toEndOf="@+id/text_artist_name" />
 
