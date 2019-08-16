@@ -18,45 +18,41 @@
 
             <Button
                 android:id="@+id/button_suffle"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
                 android:background="@color/colorBackground"
-                android:drawableStart="@drawable/ic_button_shuffle"
+                android:src="@drawable/ic_button_shuffle"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
 
             <Button
                 android:id="@+id/button_loop_all"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginBottom="8dp"
                 android:background="@color/colorBackground"
-                android:drawableStart="@drawable/ic_button_loop_all"
+                android:src="@drawable/ic_button_loop_all"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <Button
                 android:id="@+id/button_play"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
                 android:background="@color/colorBackground"
-                android:drawableStart="@drawable/ic_button_play"
+                android:src="@drawable/ic_button_play"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/button_suffle"
                 app:layout_constraintStart_toEndOf="@+id/button_loop_all" />
 
             <Button
                 android:id="@+id/button_next"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:layout_marginStart="8dp"
@@ -64,44 +60,41 @@
                 android:layout_marginBottom="8dp"
 
                 android:background="@color/colorBackground"
-                android:drawableStart="@drawable/ic_button_next"
+                android:src="@drawable/ic_button_next"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/button_suffle"
                 app:layout_constraintStart_toEndOf="@+id/button_play" />
 
             <Button
                 android:id="@+id/button_previous"
-                style="?android:attr/borderlessButtonStyle"
-                android:layout_width="36dp"
+                android:layout_width="30dp"
                 android:layout_height="36dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
-                android:drawableStart="@drawable/ic_button_previous"
+                android:src="@drawable/ic_button_previous"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/button_play"
                 app:layout_constraintStart_toEndOf="@+id/button_loop_all" />
 
             <Button
                 android:id="@+id/button_arrow_reduce"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                android:drawableStart="@drawable/ic_arrow_top"
+                android:src="@drawable/ic_arrow_top"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Button
                 android:id="@+id/button_options"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:background="@color/colorBackground"
-                android:drawableStart="@drawable/ic_button_options"
+                android:src="@drawable/ic_button_options"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -189,14 +182,13 @@
                 app:layout_constraintBottom_toBottomOf="@+id/text_artist_name"
                 app:layout_constraintStart_toEndOf="@+id/text_artist_name" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/button_like"
-                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="32dp"
-                android:drawableStart="@drawable/ic_button_not_liked"
+                android:src="@drawable/ic_button_not_liked"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
