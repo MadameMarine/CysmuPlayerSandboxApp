@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textview_top_type_album_or_playlist">15sp</dimen>
+    <dimen name="textview_top_name_album_or_playlist">20sp</dimen>
+    <dimen name="textview_title_music">30sp</dimen>
+    <dimen name="textview_name_artiste_and_album">15sp</dimen>
+</resources>

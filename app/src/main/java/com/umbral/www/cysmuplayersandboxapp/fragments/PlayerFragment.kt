@@ -12,6 +12,7 @@ import com.umbral.www.cysmuplayersandboxapp.databinding.FragmentPlayerBinding
 
 /**
  * Handle interface related code
+ * Only calls methods from other file
  * */
 class PlayerFragment : Fragment() {
 

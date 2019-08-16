@@ -3,4 +3,10 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="player_placeholder">Music player will go here</string>
+    <string name="location_album_or_playlist">Album/playlist</string>
+    <string name="title_album_or_music">Title album/playlist</string>
+    <string name="title_music">Music s title</string>
+    <string name="name_artiste">Artiste</string>
+    <string name="title_album">Album</string>
+    <string name="separator">•</string>
 </resources>
